@@ -1,0 +1,22 @@
+body{
+margin: 0;
+display: flex;
+
+}
+.portada{
+height: 100em;
+width: 100%;
+background-image: url(imagenes/logo.jpg);
+margin: 0%;
+}
+
+.portada .prueba{/*
+background-color: yellow;*/
+color: black;
+display: flex;
+text-align: center;
+justify-content: center;
+height: auto;
+width: 100%;
+margin: 0;
+}
