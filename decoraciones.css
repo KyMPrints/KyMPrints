@@ -130,7 +130,7 @@ border-radius: 1%;
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg,white,purple);
+    background: linear-gradient(90deg,rgb(255, 255, 255),purple);
     opacity: 0.9;
     z-index: -1;
     }
@@ -153,6 +153,13 @@ background: linear-gradient(to right, rgb(0, 78, 35), rgb(190, 178, 0), rgb(4, 0
     .portada .logo{
         font-size: 30px;
     }
+.portada::before{
+    height: 320px;
+}
+
+
+
+
 }
 
 
