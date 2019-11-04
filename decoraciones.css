@@ -7,7 +7,7 @@ background-size: cover;
 background-attachment: fixed;*/
 background-position: center center;
 width: 100%;
-font-family: sans-serif;
+font-family: 'Liu Jian Mao Cao', cursive;
 box-sizing: border-box;
 }
 
@@ -16,7 +16,7 @@ el resto de cosas no se vuelvan opacas*/
 body::before{
 content: "";
 width: 100%;
-min-height: 200vh;
+min-height: 100vh;
 position: absolute;
 top: 0;
 left: 0;
@@ -110,7 +110,6 @@ header .menu ul{
 
 
 
-
 .portada{
 height: auto;
 width: 100%;
@@ -118,28 +117,40 @@ margin: 0%;
 display: flex;
 text-align: center;
 justify-content: center;
+
+box-shadow: 0 0 0 2px rgb(0, 0, 0),
+            0 0 0 2px #ccc,
+            0 20px 20px -12px #000000; 
+border-radius: 1%;
+
 }
-/*
-.portada .prueba{
+
+.portada .logo{
 color: black;
+padding-top: 80px;
+padding-bottom: 100px;
 display: flex;
 text-align: center;
 justify-content: center;
-height: auto;
-width: 100%;
 margin: 0;
-position: relative;
-background-repeat: no-repeat;
-background-size: cover;
+font-size: 50px;
+background: linear-gradient(to right, rgb(0, 78, 35), rgb(190, 178, 0), rgb(4, 0, 255), rgb(255, 0, 0));
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+
 
 }
 
-*/
+
+
+
+footer{
+    padding-top: 600px;
+}
 
 .prueba{
     text-align: justify;
     margin: 0;
-    padding: 0px;
     width: 100%;
     height: auto;
     box-shadow: 0 0 0 1px #Fff,
@@ -148,11 +159,21 @@ background-size: cover;
     justify-content: space-around; 
     align-items: center;/*
     flex-direction: column;*/
+    list-style: none;
+    text-decoration: none;
 }
-.prueba ul{
+.prueba li{
 list-style: none;
-text-decoration: none;
 }
+.prueba li a{
+    text-decoration: none;
+    color: #000000;
+    }
+.prueba li a:hover{
+    background: rgba(0,0,0,0.1);
+    transform: translateX(2px);
+}
+
 @media (max-width: 610px){
     .prueba{
      flex-direction: column;   
