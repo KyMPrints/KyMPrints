@@ -137,9 +137,14 @@ font-size: 50px;
 background: linear-gradient(to right, rgb(0, 78, 35), rgb(190, 178, 0), rgb(4, 0, 255), rgb(255, 0, 0));
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
-
-
 }
+@media (max-width: 768px){
+    .portada .logo{
+        font-size: 30px;
+    }
+}
+
+
 
 
 
