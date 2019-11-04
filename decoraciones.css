@@ -8,6 +8,7 @@ background-attachment: fixed;*/
 background-position: center center;
 width: 100%;
 font-family: 'Liu Jian Mao Cao', cursive;
+font-weight: bold;
 box-sizing: border-box;
 }
 
@@ -16,7 +17,7 @@ el resto de cosas no se vuelvan opacas*/
 body::before{
 content: "";
 width: 100%;
-min-height: 127.4vh;
+min-height:149.2vh;
 position: absolute;
 top: 0;
 left: 0;
@@ -26,12 +27,10 @@ z-index: -1;
 }
 @media(max-width: 768px){
     body::before{
-        min-height: 131.9vh;
+        min-height: 139.2vh;
     }
 
 }
-
-
 header {
     width: 100%;
     
@@ -55,6 +54,7 @@ header label:hover{
     background: rgba(0,0,0,0.3);
 }
 .menu ul{
+    font-size: 30px;
     margin: 0;
     list-style: none;
     padding: 0;
@@ -177,6 +177,7 @@ footer{
 
 .prueba{
     text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
     width: 100%;
     height: auto;
@@ -188,17 +189,17 @@ footer{
     flex-direction: column;*/
     list-style: none;
     text-decoration: none;
+    line-height: 50px;
 }
 .prueba li{
 list-style: none;
 }
-.prueba li a{
-    text-decoration: none;
+.prueba li a{/*
+    text-decoration: noce;*/
     color: #000000;
     }
 .prueba li a:hover{
     background: rgba(0,0,0,0.1);
-    transform: translateX(2px);
 }
 
 @media (max-width: 610px){
