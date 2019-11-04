@@ -122,8 +122,19 @@ box-shadow: 0 0 0 2px rgb(0, 0, 0),
             0 0 0 2px #ccc,
             0 20px 20px -12px #000000; 
 border-radius: 1%;
-
 }
+.portada::before{
+    content: "";
+    width: 100%;
+    height: 415px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg,white,purple);
+    opacity: 0.9;
+    z-index: -1;
+    }
+
 
 .portada .logo{
 color: black;
