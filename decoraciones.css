@@ -16,7 +16,7 @@ el resto de cosas no se vuelvan opacas*/
 body::before{
 content: "";
 width: 100%;
-min-height: 100vh;
+min-height: 127.4vh;
 position: absolute;
 top: 0;
 left: 0;
@@ -24,6 +24,14 @@ background: linear-gradient(90deg,white,purple);
 opacity: 0.6;
 z-index: -1;
 }
+@media(max-width: 768px){
+    body::before{
+        min-height: 131.9vh;
+    }
+
+}
+
+
 header {
     width: 100%;
     
@@ -156,10 +164,6 @@ background: linear-gradient(to right, rgb(0, 78, 35), rgb(190, 178, 0), rgb(4, 0
 .portada::before{
     height: 320px;
 }
-
-
-
-
 }
 
 
