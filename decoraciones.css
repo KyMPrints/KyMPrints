@@ -137,7 +137,7 @@ border-radius: 1%;
     left: 0;
     background: linear-gradient(90deg,rgb(255, 255, 255),purple);
     opacity: 0.9;
-    z-index: -2;
+    z-index: -1;
     }
 .portada .logo{
 color: black;
@@ -150,7 +150,7 @@ justify-content: center;
 line-height: 1px;
 margin: 0;
 font-size: 50px;
-background: linear-gradient(to right, rgb(0, 78, 35), rgb(190, 178, 0), rgb(4, 0, 255), rgb(255, 0, 0));
+background: linear-gradient(to right, rgb(112, 0, 0), rgb(4, 0, 255), rgb(179, 176, 0), rgb(192, 179, 0));
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
 }
@@ -174,10 +174,14 @@ background: linear-gradient(to right, rgb(0, 78, 35), rgb(190, 178, 0), rgb(4, 0
 
 footer{
     padding-top: 500px;
+    
 }
 
 
 footer .contenedor{
+box-shadow: 0 0 0 2px rgb(0, 0, 0),
+                0 0 0 2.5px rgb(0, 195, 255),
+                0 20px 20px -12px #000000;     
 font-family: sans-serif;
 font-weight: normal;
 box-sizing: border-box;
