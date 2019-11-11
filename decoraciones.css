@@ -16,9 +16,10 @@ box-sizing: border-box;
 el resto de cosas no se vuelvan opacas*/
 body::before{
 content: "";
-width: 100%;
-min-height:1385px;
-position: absolute;
+width: 100%;/*
+min-height:1385px;*/
+height: 100%;
+position: fixed;
 top: 0;
 left: 0;
 background: linear-gradient(90deg,white,purple);
@@ -316,6 +317,7 @@ footer .contenedor .column3 label{
     width: auto;
     font-family: sans-serif;
     display: flex;
+    height: auto;
     justify-content: center;
     justify-items: center;
     align-items: center;
