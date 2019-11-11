@@ -143,7 +143,7 @@ box-sizing: border-box;
     z-index: -1;
     }
 .portada .logo{
-color: black;
+color: rgb(255, 255, 255);
 padding-top: 130px;
 padding-bottom: 0px;
 display: flex;
@@ -154,9 +154,10 @@ justify-content: center;
 font-size: 50px;
 border: 1px solid black;
 margin: 0;
-background: linear-gradient(to right, rgb(112, 0, 0), rgb(4, 0, 255), rgb(179, 176, 0), rgb(192, 179, 0));
+background: linear-gradient(to right, rgb(255, 0, 0), rgb(84, 82, 255), rgb(255, 252, 104), rgb(0, 117, 16));
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
+-webkit-text-stroke: 0.1px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 805px){
