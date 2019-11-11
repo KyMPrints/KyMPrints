@@ -120,6 +120,7 @@ header .menu ul{
 height: auto;
 width: 100%;
 margin: 0%;
+padding: 0%;
 display: flex;
 text-align: center;
 justify-content: center;
@@ -128,11 +129,12 @@ box-shadow: 0 0 0 2px rgb(0, 0, 0),
             0 0 0 2px #ccc,
             0 20px 20px -12px #000000; 
 border-radius: 1%;
+box-sizing: border-box;
 }
 .portada::before{
     content: "";
     width: 100%;
-    height: 468px;
+    height: 516px;
     position: absolute;
     top: 0;
     left: 0;
@@ -143,27 +145,37 @@ border-radius: 1%;
 .portada .logo{
 color: black;
 padding-top: 130px;
-padding-bottom: 100px;
-flex-direction: column;
+padding-bottom: 0px;
 display: flex;
+height: 0%;
+flex-direction: column;
 text-align: center;
 justify-content: center;
-line-height: 1px;
-margin: 0;
 font-size: 50px;
+border: 1px solid black;
+margin: 0;
 background: linear-gradient(to right, rgb(112, 0, 0), rgb(4, 0, 255), rgb(179, 176, 0), rgb(192, 179, 0));
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
 }
 
-@media (max-width: 830px){
+@media (max-width: 805px){
+    .portada .logo{
+        font-size: 30px;
+    }
+    .portada::before{
+        height: 362.28px;
+    }
+}
+@media (max-width: 439px){
     .portada .logo{
         font-size: 30px;
     }
 .portada::before{
-    height: 374px;
+    height: 392.38px;
 }
 }
+
 
 
 
